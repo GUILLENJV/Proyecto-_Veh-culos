@@ -46,3 +46,11 @@ Tiene sentido que los vehículos híbridos tengan un MPG, ya que dependen de sus
 Las variables de carácter nominal, como el modelo o el fabricante, requieren una transformación llamada One Hot Encoding. Se crean varias variables dummy en función del número de estas. En caso de que se cumpla la condición se asignará un 1, mientras que las demás columnas se rellenarán con un 0.
 
 Como resultados llegamos a un número de 119 variables de entrada. Además de tener alrededor de 50.000 observaciones. El cual el mejor modelo que cumple con estas características es el XGBoost. En lugar de utilizar una red neuronal, ya que utilizarla requiere más conjuntos de datos. XGBoost no requiere ningún tipo de escalado, ya que aplica inecuaciones matemáticas sobre cada estimador.
+
+## *XGBoost*
+
+<img src = "https://miro.medium.com/max/560/1*85QHtH-49U7ozPpmA5cAaw.png">
+
+Es un algoritmo que utiliza otros modelos más simples, generalmente árboles de decisión. Cada árbol se vuelve mejor según la proporción de la tasa de aprendizaje del usuario. Una tasa de aprendizaje baja permite el mayor uso de estimadores.
+
+Además de evitar que el modelo sobreajuste los datos de entrenamiento, tiene la ventaja adicional de que el modelo se puede entrenar utilizando una GPU, acelerando la velocidad de entrenamiento.
