@@ -19,3 +19,13 @@ Desarrollar un modelo predictivo que permita estimar el precio de los vehículos
 # Descubrimientos importantes
 
 ![mean_price](https://user-images.githubusercontent.com/85312561/187807320-c551598b-4eae-4f27-a781-66e90d4d13ed.png)
+
+Como se puede observar en marcas como Mercedes-Benz, Audi y BMW, tienen un precio medio más elevado, ya que son fabricantes de vehículos de alta gama.
+
+![matrix plot](https://user-images.githubusercontent.com/85312561/187807773-39d1df0b-e2a0-408f-b1f2-f186d695380e.png)
+
+* Generalmente entre más reciente sea el modelo, el precio aumentará, ya que los vehículos van mejorando con el tiempo.
+* Cuanto más kilómetros recorra el vehículo, el precio baja, ya que el modelo se desgasta, siempre y cuando sea el mismo modelo.
+* La cilindrada influye positivamente en el precio del vehículo, ya que el apartado técnico de los vehículos aumenta.
+
+* 
